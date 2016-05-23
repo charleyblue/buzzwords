@@ -26,6 +26,22 @@
       });"
   },
   {
+      "term" : "Ruby Variables",
+      "definition" : ["local", "instance", "global", "Constants"],
+      "example" : {
+                    "local" : "name = Sam",
+                    "insatnce" : "class User
+                                    def user(name)
+                                        @name = name
+                                    end",
+                    "global" : "$dollar = 100",
+                    "Constants" : "Class User
+                                        User::Name
+                                    end"
+                  },
+        "keywords" : "Ruby, variables"
+  },
+  {
       "term" : "",
       "definition" : "",
       "example" : ""
