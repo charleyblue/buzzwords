@@ -1,32 +1,33 @@
 [
   {
-    "term" : "Bower",
-    "definition": "A package manager for the web, it installs the right versions of the packages you need and their dependencies.",
-    "example" :  "$ bower install <package>",
-    "keywords" : "pkgmanager"
-  },
-  {
     "term" : "HTML",
     "definition": "Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.",
-    "example" :  "<html></html>",
-    "keywords" : ""
+    "example" :  "<html></html>"
   },
   {
     "term" : "CSS",
     "definition": "Cascading Style Sheets, used to add styling to HTML pages",
-    "example" :  "body { color: red; }",
-    "keywords" : ""
+    "example" :  "body { color: red; }"
   },
   {
-    "term" : "Git",
-    "definition": "Version control system, widely used for software development and other version control tasks.",
-    "example" :  "git init",
-    "keywords" : ""
+      "term" : "node.js",
+      "definition" : "Node uses JavaScript code to create a 'runtime environment for developing server-side Web Apps.'",
+      "example" : "const http = require('http');
+      const hostname = '127.0.0.1';
+      constr port = 3000;
+      constr server = http:createServer((req, res) => {
+          res.statusCode = 200;
+          res.setHeader('Content-Type', 'text/plain');
+          res.end('Hello World\n');
+      });
+
+      server.listen(port, hostname, () => {
+          console.log('Server is running at http://${hostname}:${port}/')
+      }):"
   },
   {
-    "term" : "Repository",
-    "definition": "A central location in which data is stored and managed.",
-    "example" :  "http://github/username/repository",
-    "keywords" : ""
+      "term" : "",
+      "definition" : "",
+      "example" : ""
   }
 ]
